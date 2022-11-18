@@ -1,0 +1,11 @@
+<!DOCTYPE RESTRAUNT
+[
+<!ELEMENT RESTRAUNT (name, price, description, quantity, calories)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT price(#PCDATA)>
+<!ELEMENT description(#PCDATA)>
+<!ELEMENT quantity(q, qt)>
+<!ELEMENT q(#CDATA)>
+<!ELEMENT qt(#CDATA)>
+<!ELEMENT calories(#PCDATA)>
+]>
