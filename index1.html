@@ -84,6 +84,11 @@
             </div>
         </div>
     </section>
+    <div><center><p>Click on the play button to play a sound:</p>
+
+        <audio controls>
+        <source src="C:\Users\ATHIRA\Downloads\yum-yum-yum-89883.mp3" type="audio/mp3">
+        </audio> </center> </div>
     <section id="food-menu">
         <h2 class="food-menu-heading">Food Menu</h2>
         <div class="food-menu-container container">
@@ -168,8 +173,8 @@
             <div class="Review-box">
                 <div class="customer-detail">
                     <div class="customer-photo">
-                        <img src="https://i.postimg.cc/5Nrw360Y/male-photo1.jpg" alt="" />
-                        <p class="customer-name">Advaith Kumar</p>
+                        <img src="C:\Users\ATHIRA\OneDrive\Desktop\img\WhatsApp Image 2022-11-28 at 11.02.13 PM.jpeg" alt="" />
+                        <p class="customer-name">Advaith D.N</p>
                     </div>
                 </div>
                 <div class="star-rating">
@@ -229,22 +234,93 @@
             <div class="contact-img">
                 <img src="https://i.postimg.cc/1XvYM67V/restraunt2.jpg" alt="" />
             </div>
-
-            <div class="form-container">
-                <h2>Contact Us</h2>
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="E-Mail" />
-                <textarea cols="30" rows="6" placeholder="Type Your Message"></textarea>
-                <a href="#" class="btn btn-primary">Submit</a>
-            </div>
+    <!-- #FORM -->
+                    <script>
+                        function formvalidate() {
+                            var name =
+                                document.forms.RegForm.Name.value;
+                            var email =
+                                document.forms.RegForm.EMail.value;
+                            var phone =
+                                document.forms.RegForm.Telephone.value;
+                            var address =
+                                document.forms.RegForm.Address.value;
+                            var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g; //Javascript reGex for Email Validation.
+                            var regPhone=/^\d{10}$/;									 // Javascript reGex for Phone Number validation.
+                            var regName = /\d+$/g;								 // Javascript reGex for Name validation
+            
+                            if (name == "" || regName.test(name)) {
+                                window.alert("Please enter your name properly.");
+                                name.focus();
+                                return false;
+                            }
+            
+                            if (address == "") {
+                                window.alert("Please enter your address.");
+                                address.focus();
+                                return false;
+                            }
+                            
+                            if (email == "" || !regEmail.test(email)) {
+                                window.alert("Please enter a valid e-mail address.");
+                                email.focus();
+                                return false;
+                            }
+                            
+                            if (phone == "" || !regPhone.test(phone)) {
+                                alert("Please enter valid phone number.");
+                                phone.focus();
+                                return false;
+                            }
+            
+                            return true;
+                        }
+                    </script>
+             <section id="form">
+                <div class="form-container container">
+                    <h1 style="text-align: center;">REGISTER</h1>
+                    <form name="RegForm" onsubmit="return formvalidate()" method="post">
+                        
+            <p>Name: <input type="text"
+                                        size="65" name="Name" /></p>
+            
+                        <br />
+                        
+            <p>Address: <input type="text"
+                                        size="65" name="Address" />
+                    </p>
+            
+                        <br />
+                        
+            <p>E-mail Address: <input type="text"
+                                        size="65" name="EMail" /></p>
+            
+                        <br />
+                        
+            <p>Telephone: <input type="text"
+                                    size="65" name="Telephone" /></p>
+            
+                        <br />
+                        
+            <p>Comments: <textarea cols="55"
+                                        name="Comment"> </textarea></p>
+            
+                        
+            <p>
+                            <input type="submit"
+                                value="send" name="Submit" />
+            
+         </form>
         </div>
-
+        </section>
+        </script>    
     </section>
      <hr>
+
 	<center><h2 style="color: rgb(4,4,83);"><strong>ENJOY OUR SMALL VIDEO!</strong></h2></center>
 	<center><video width="800" height="500" controls autoplay>
 	<source
-		src="C:\Users\ATHIRA\Downloads\restaurant_ad.mp4"
+		src="C:\Users\ATHIRA\OneDrive\Pictures\restaurant_ad - Trim.mp4"
            type="video/ogg"/>
 	</video></center>
 <div >
@@ -269,16 +345,11 @@ function showPosition(position) {
   "<br>Longitude: " + position.coords.longitude;
 }
 </script>
+   
 </div>
     <footer id="footer">
-        <h2>Thanks for visiting our website!</h2>
+        <h2>Thanks for visiting our website, Do visit again!</h2>
     </footer>
-    <!-- .................../ JS Code for smooth scrolling /...................... -->
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="app.js"></script>
-	
-
 
 </html>
 
