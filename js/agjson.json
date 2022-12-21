@@ -1,0 +1,58 @@
+[  {
+   "Item_Name":"Biriyani",
+   "Price":450,
+   "Description":"Biryani is a spiced mix of meat and rice, traditionally cooked over an open fire in a leather pot.",
+   "Calories":"250cal",
+   "Quantity":"750Gms"
+   },
+   {
+      "Item_Name":"Paneer Butter Masala",
+      "Price":370,
+      "Description":"Paneer butter masala, also known as butter paneer is a rich and creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.",
+      "Calories":"200cal",
+      "Quantity":"250Gms"
+   },
+   {
+      "Item_Name":"Grilled Chicken Sandwich",
+      "Price":399,
+      "Description":"Grilled chicken sandwich recipe features tender, seasoned chicken breasts sandwiched between toasted French bread with crisp lettuce.",
+      "Calories":"380cal",
+      "Quantity":"2 whole slices of bread cut into 4."
+   },
+   {
+      "Item_Name":"Burrito Bowl",
+      "Price":599,
+      "Description":"Burrito Bowls are basically the guts of a burrito - chicken, rice, beans, salsa, and guacamole – scooped inside of a bowl versus a tortilla, so they're gluten free and lower in carbs than a traditional burrito.",
+      "Calories":"202.5cal",
+      "Quantity":"638Gms"
+   },
+   {
+      "Item_Name":"Chocolate Mousse Cake",
+      "Price":699,
+      "Description":"Super moist dark chocolate mousse cake combines unsweetened natural cocoa powder and dark cocoa powder for an extra rich flavor.",
+      "Calories":"750cal",
+      "Quantity":"750Gms"
+   },
+   {
+      "Item_Name":"Ramen Sesame Salad",
+      "Price":499,
+      "Description":"Freshly chopped salad blend of iceberg and romaine lettuce, tossed in an Asian sesame vinaigrette. Combined with red onions, green onions, cucumber, crispy ramen noodles, topped with hard-boiled eggs and marinated chicken.",
+      "Calories":"600cal",
+      "Quantity":"500Gms"
+   },
+   {
+      "Item_Name":"Pizza",
+      "Price":750,
+      "Description":"Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients, baked quickly—usually, in a commercial setting, using a wood-fired oven heated to a very high temperature—and served hot.",
+      "Calories":"700cal",
+      "Quantity":"6 slices(regular)"
+   },
+   {
+      
+      "Item_Name":"Classic Oatmeal",
+      "Price":599,
+      "Description":"Organic Oatmeal, Bananas, Cranberry, Toasted Granola Chia with Honey/Nutella.",
+      "Calories":"200cal",
+      "Quantity":"250Gms"
+   }
+   ]

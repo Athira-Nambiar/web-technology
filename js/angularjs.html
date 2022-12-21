@@ -1,0 +1,32 @@
+<!DOCTYPE html>    
+ <html>    
+ <head>    
+   <title>Restraunt</title>    
+   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>    
+   <script type="text/javascript" src="restraunt.js"></script>    
+   <link rel="stylesheet" type="text/css" href="test.css"
+ </head>    
+ <body ng-app="RestrauntApp">    
+   <div align="center"><p>Food Item</p></div>    
+   <div ng-controller="RestrauntCtrl">    
+     <table align="center" border="1">    
+       <tr>    
+         <th>Item_Name</th>    
+         <th>Price</th>    
+         <th>Description</th>
+         <th>Calories</th>
+         <th>Quantity</th>        
+       </tr>    
+       <tr ng-repeat="Restraunt in Food_Items|orderBy:'Price'">    
+         <td>{{Restraunt.Item_Name|uppercase}}</td>    
+         <td>{{Restraunt.Price|currency : "₹" :2}}</td>    
+         <td>{{Restraunt.Description|lowercase}}</td>   
+         <td>{{Restraunt.Calories|uppercase}}</td>   
+         <td>{{Restraunt.Quantity}}</td>        
+       </tr>    
+     </table>    
+   </div>    
+ </body>    
+ </html>    
+
+ 
