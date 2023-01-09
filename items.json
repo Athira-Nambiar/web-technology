@@ -1,0 +1,51 @@
+[
+  {
+    "item": "paneer butter masala",
+    "description": "Paneer butter masala, also known as butter paneer is a rich & creamy curry made with paneer, spices, onions, tomatoes, cashews and butter.",
+    "calories": "200cal",
+    "quantity": "serves 3",
+    "price": "Rs.400"
+  },
+  {
+    "item": "chicken fried rice",
+    "description": "Fried rice is a dish of cooked rice that has been stir-fried in a wok or a frying pan and is usually mixed with other ingredients such as eggs, vegetables, seafood, or meat.",
+    "calories": "343cal",
+    "quantity": "serves 2",
+    "price": "Rs.480"
+  },
+  {
+    "item": "Lasagna",
+    "description": "Lasagna is a wide, flat sheet of pasta. Lasagna can refer to either the type of noodle or to the typical lasagna dish which is a dish made with several layers of lasagna sheets with sauce and other ingredients, such as meats and cheese, in between the lasagna noodles.",
+    "calories": "843cal",
+    "quantity": "serves 1",
+    "price": "Rs.1500"
+  },
+  {
+    "item": "Burger",
+    "description": "A burger is a flat round mass of minced meat or vegetables, which is fried and often eaten in a bread roll.",
+    "calories": "343cal",
+    "quantity": "serves 1",
+    "price": "Rs.250"
+  },
+  {
+    "item": "Pizza",
+    "description": "Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese, and many other ingredients.",
+    "calories": "356cal",
+    "quantity": "6 slices",
+    "price": "Rs.880"
+  },
+  {
+    "item": "French Fries",
+    "description": "French Fries, also called chips, finger chips, fries, or French pommes frites, side dish or snack typically made from deep-fried potatoes that have been cut into various shapes, especially thin strips.",
+    "calories": "140cal",
+    "quantity": "4 ounces",
+    "price": "Rs.350"
+  },
+  {
+    "item": "Shawarma",
+    "description": "Shawarma is made of spit-roasted layers of lamb, beef, or other meat that are sliced and often wrapped in or served with pita.",
+    "calories": "392.3cal",
+    "quantity": "serves 1",
+    "price": "Rs.400"
+  }
+]
